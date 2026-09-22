@@ -1,9 +1,9 @@
 cask "logtapper" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.13.2"
-  sha256 arm:   "c5739a8cf72e653f18334096b2b9dcbb116ae42ca4baea0311084c9254670561",
-         intel: "a941717abc258f2896c63f49516f8481e1d7b7d49bdf8d2c032a7e24d2d900b7"
+  version "0.13.3"
+  sha256 arm:   "e9a6773613940d3a341a799c5a3127957d8498c187eeabfea5c4b6597d19a43b",
+         intel: "57778e3cd311dd000739ca27977f78b7bd82c9bba9d552fdcb83e485062bba0f"
 
   url "https://github.com/jpicklyk/LogTapper/releases/download/v#{version}/LogTapper_#{version}_#{arch}.dmg"
   name "LogTapper"
